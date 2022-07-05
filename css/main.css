@@ -86,7 +86,7 @@ section {
     width: 330px;
     height: 30px;
     padding: 6px 12px;
-    border: 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 .search-button{
     background-color: #a0a0a0;
@@ -98,14 +98,14 @@ section {
 
 }
 .nav-list{
-    padding: 0;
+    padding-left: 0;
     width: 575px;
     margin-top: 10px;
     
 }
 .nav-list li a {
-    font: 16px;
-    font-display: uppercase;
+    font-size: 16px;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2px;
 }
@@ -115,10 +115,11 @@ section {
 .account{
     text-align: right;
     padding: 15px;
-    font: 18px #364147;
+    font-size: 18px;
+    color: #364147;
 
 }
-.account li {
+.account a {
     font-size: 14px;
 }
 .profile-pic {
