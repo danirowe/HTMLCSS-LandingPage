@@ -205,7 +205,7 @@ section {
     margin: 50px 0;
     position: relative;
 }
-.full-banner ::before{
+.full-banner:before{
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -229,14 +229,14 @@ section {
     padding: 30px;
     color: #ffffff;
 }
-.full-banner-sidebar h4{
+.full-banner-sidebar h4 {
     font-size: 40px;
     font-weight: 700;
     font-style: italic;
     color: #637f94;
     height: 1;
 }
-.full-banner-sidebar h4 ::after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
@@ -249,7 +249,7 @@ section {
     font-weight: 700;
     line-height: 1;
 }
-.full-banner-sidebar > div:nth-of-type(12) {
+.full-banner-sidebar > div:nth-of-type(2) {
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 3px;
